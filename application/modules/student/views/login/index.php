@@ -1,6 +1,6 @@
 <?php
     // pre populate data in post-back and edit secreen.
-    echo $username   =  isset($_POST['username']) ? $_POST['username'] : '';
+    $username   =  isset($_POST['username']) ? $_POST['username'] : '';
     
 ?>
 
